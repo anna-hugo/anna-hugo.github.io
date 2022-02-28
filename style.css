@@ -1,0 +1,237 @@
+@font-face {
+  font-family: "venturis";
+  src: url("assets/VenturisADF-Bold.otf");
+}
+@font-face {
+  font-family: "brother1816";
+  src: url("assets/Brother1816Printed-Regular.ttf");
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 100%;
+}
+.section1 {
+  height: 100vh;
+  display: flex;
+  background-color: #bec2be;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  opacity: 90%;
+}
+
+.pic1 {
+  object-fit: cover;
+}
+
+.pic2 {
+  object-fit: contain;
+  width: 60%;
+}
+
+.mainPic {
+  width: 50vw;
+}
+
+.textPic {
+  width: 100%;
+  object-fit: contain;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.mainTitle {
+  color: white;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  font-size: 1.6em;
+  letter-spacing: 0.1em;
+}
+
+.text {
+  text-align: center;
+  font-family: "venturis", "Courier New", Courier, monospace;
+  line-height: 1.4em;
+}
+
+.section2 {
+  padding: 50px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+}
+
+.placeImage {
+  width: 60%;
+  height: 60%;
+  object-fit: cover;
+  opacity: 90%;
+}
+
+.titleSection2 {
+  text-align: center;
+  font-family: "brother1816", "Courier New", Courier, monospace;
+  line-height: 1.4em;
+  color: black;
+  font-size: 1.2em;
+}
+
+.textSection2 {
+  padding-top: 20px;
+  text-align: center;
+  font-family: "brother1816", "Courier New", Courier, monospace;
+  line-height: 1.4em;
+  color: black;
+}
+
+.section3 {
+  padding: 50px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+}
+
+.wrapperSection3 {
+  display: flex;
+  width: 70vw;
+  height: 80vh;
+  justify-content: space-around;
+}
+
+.section3-1 {
+  padding: 100px 30px;
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  justify-content: space-around;
+}
+
+.section3-2 {
+  width: 30vw;
+  justify-content: space-between;
+}
+
+.textSection3 {
+  text-align: center;
+  font-family: "brother1816", "Courier New", Courier, monospace;
+  line-height: 1.4em;
+  color: black;
+}
+
+.section4 {
+  padding: 50px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  align-items: center;
+}
+
+.titleSection4 {
+  text-align: center;
+  font-family: "brother1816", "Courier New", Courier, monospace;
+  line-height: 1.4em;
+  color: black;
+}
+
+.textSection4 {
+  padding: 50px 150px 100px 150px;
+  text-align: center;
+  font-family: "brother1816", "Courier New", Courier, monospace;
+  line-height: 1.4em;
+  color: black;
+}
+
+.section5 {
+  padding: 50px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  align-items: center;
+}
+
+.titleSection5 {
+  text-align: center;
+  font-family: "brother1816", "Courier New", Courier, monospace;
+  line-height: 1.4em;
+  color: black;
+}
+
+.textSection5 {
+  padding: 50px 150px 100px 150px;
+  text-align: center;
+  font-family: "brother1816", "Courier New", Courier, monospace;
+  line-height: 1.4em;
+  color: black;
+}
+
+.section6 {
+  padding: 50px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  align-items: center;
+}
+
+.titleSection6 {
+  text-align: center;
+  font-family: "brother1816", "Courier New", Courier, monospace;
+  line-height: 1.4em;
+  color: black;
+}
+
+.textSection6 {
+  padding: 50px 150px 100px 150px;
+  text-align: center;
+  font-family: "brother1816", "Courier New", Courier, monospace;
+  line-height: 1.4em;
+  color: black;
+}
+
+.formulaire {
+  align-items: center;
+  margin: auto;
+}
+
+.divForm {
+  padding-top: 20px;
+  width: 500px;
+  padding-left: 50px;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+}
+
+textarea {
+  width: 200px;
+  height: 30px;
+}
+
+select {
+  width: 200px;
+  height: 30px;
+}
