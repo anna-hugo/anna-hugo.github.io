@@ -1,10 +1,10 @@
 @font-face {
   font-family: "venturis";
-  src: url("assets/VenturisADF-Bold.otf");
+  src: url("VenturisADF-Bold.otf");
 }
 @font-face {
   font-family: "brother1816";
-  src: url("assets/Brother1816Printed-Regular.ttf");
+  src: url("Brother1816Printed-Regular.ttf");
 }
 
 .wrapper {
