@@ -8,12 +8,24 @@
     <title>Document</title>
   </head>
   <body class="wrapper">
-    <div class="section0">
-      <button class="confirmButton" type="button" onClick="document.getElementById('confirm').scrollIntoView({behavior: 'smooth'});">Confirmer votre présence</button>
+    <div class="section01">
+      <div class="topbar">
+        <button class="simpleButton" type="button" onClick="document.getElementById('lieu').scrollIntoView({behavior: 'smooth'});">Lieu</button>
+        <button class="simpleButton" type="button" onClick="document.getElementById('programme').scrollIntoView({behavior: 'smooth'});">Programme</button>
+        <button class="simpleButton" type="button" onClick="document.getElementById('logements').scrollIntoView({behavior: 'smooth'});">Logements</button>
+        <button class="simpleButton" type="button" onClick="document.getElementById('liste').scrollIntoView({behavior: 'smooth'});">Liste de mariage</button>
+        <button class="confirmButton" type="button" onClick="document.getElementById('confirm').scrollIntoView({behavior: 'smooth'});">Confirmer votre présence</button>
+      </div>
+      <div>
+        <img src="pic1.png" class="pic1" alt="main pic" />
+
+      </div>
+    </div>
+    <!-- <div class="section0">
     </div>
     <div class="section1">
       <img src="pic1.png" class="pic1" alt="main pic" />
-    </div>
+    </div> -->
     <div class="section">
       <div class="content">
         <img src="pic2.jpg" class="pic2" alt="main pic" />
@@ -28,14 +40,14 @@
       </div>
     </div>
     <div class="section">
-      <div class="title">📍 LIEU </div>
+      <div class="title" id="lieu">📍 LIEU </div>
       <div class="content">
         <img src="pic3.png" class="pic2" alt="main pic" />
         <div class="text-wrapper">
           <div class="text">
-            <div class="text3">Addresse :</div>
-            <div class="text4">MAISON LE BÔMA 232</div>
-            <div class="text4">CHEMINS DES SAFFRES</div>
+            <div class="text3">Adresse :</div>
+            <div class="text4">MAISON LE BÔMA </div>
+            <div class="text4">232 CHEMINS DES SAFFRES</div>
             <div class="text4">84340 MALAUCÈNE</div>
             <div class="text3">Coordonnées GPS :</div>
             <div class="text4">44.1833739,5.1438838</div>
@@ -43,40 +55,38 @@
         </div>
       </div>
     </div>
-    <div class="title2"> 📃 PROGRAMME </div>
-
+    <div class="title2" id="programme"> 📃 PROGRAMME </div>
     <div class="section">
       <div class="content">
+        <img src="pic6.jpeg" class="pic3" alt="main pic" />
         <div class="text-wrapper">
           <div class="text">
             <div class="text3">SAMEDI 16 JUILLET 2022 :</div>
-            <div class="text4">A partir de 16h</div>
+            <div class="text4italique">À partir de 16h</div>
             <div class="text4">CÉRÉMONIE LAÏQUE</div>
             <div class="text4">COCKTAIL</div>
-            <div class="text4">BUFFET DINATOIRE</div>
+            <div class="text4">BUFFET DÎNATOIRE</div>
           </div>
         </div>
-        <img src="pic6.jpeg" class="pic3" alt="main pic" />
-
     </div>
     <div class="section">
       <div class="content">
         <img src="pic7.jpeg" class="pic3" alt="main pic" />
-
         <div class="text-wrapper">
           <div class="text">
             <div class="text3">DIMANCHE 17 JUILLET 2022 :</div>
-            <div class="text4">A partir de 12h</div>
+            <div class="text4italique">À partir de 12h</div>
             <div class="text4">BRUNCH</div>
             <div class="text4">POOL PARTY</div>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="section">
+    <div class="section" id="logements">
       <div class="title"> 🏡 LOGEMENTS </div>
       <div class="content">
+        <img src="pic4.jpeg" class="pic3" alt="main pic" />
+
         <div class="text-wrapper">
           <div class="text">
             <div class="text5">
@@ -110,14 +120,13 @@
             </div>
           </div>
         </div>
-        <img src="pic4.jpeg" class="pic3" alt="main pic" />
       </div>
     </div>
-    <div class="section">
+    <div class="section" id="liste">
       <div class="title"> 💝 Liste de mariage : </div>
       <div class="content">
         <div class="pic2">
-          <img src="pic5.jpeg" class="pic3" alt="main pic" />
+          <img src="pic5.jpeg" class="pic5" alt="main pic" />
         </div>
         <div class="text-wrapper">
           <div class="text">
